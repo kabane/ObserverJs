@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Observer Example</title>
+</head>
+<body>
+    <label>左辺</label><input type="number" id="leftNum" value=0>
+    <label>右辺</label><input type="number" id="rightNum" value=0>
+
+    <p>計算結果</p>
+    <p class="result">
+        <span>乗算</span>
+        <span id="outputMultiplication">0</span>
+    </p>
+    <p class="result">
+        <span>除算</span>
+        <span id="outputDivision">0</span>
+    </p>
+
+    <script src="./subject.js"></script>
+    <script src="./observer.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
